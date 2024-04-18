@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+span,a{
+    display: inline-block;
+}
+body{
+    background: black;
+    color: aliceblue;
+    padding: 15px;
+}
+.para{
+    padding: 15px;
+    font-size: 36px;
+    letter-spacing: 0px;
+    border-radius: 38px;
+    background: rgba(107, 82, 82, 0.35);
+    box-shadow:  5px 5px 10px #5a5a5a,
+                -5px -5px 10px #ffffff;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;            
+}
+.php{
+    padding: 15px;
+    font-size: 36px;
+    letter-spacing: 0px;
+    background: rgba(107, 82, 82, 0.35);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 38px;
+    box-shadow:  5px 5px 10px #5a5a5a,
+                -5px -5px 10px #ffffff;
+}
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(purple, white);
+}
+.link1{
+    text-decoration: none;
+    color: red;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+::selection{
+    background-color: pink;
+}
+canvas{
+    position: absolute;
+}
+#canvas1{
+    background: url(bts41.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    filter: blur(5px) contrast(10)
+}
