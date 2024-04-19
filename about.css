@@ -63,6 +63,6 @@ canvas{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: black;
+    
     filter: blur(5px) contrast(10)
 }
